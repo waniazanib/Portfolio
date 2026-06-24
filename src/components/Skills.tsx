@@ -2,7 +2,7 @@ import { Section } from "./Section";
 
 const GROUPS: { label: string; items: string[] }[] = [
   {
-    label: "AI / Machine Learning",
+    label: "AI/Machine Learning",
     items: ["Python", "PyTorch", "ResNet", "TensorFlow", "Scikit-Learn", "ONNX", "NumPy", "Pandas", "NLP"],
   },
   {
@@ -27,10 +27,10 @@ export function Skills() {
         {GROUPS.map((g, i) => (
           <div
             key={g.label}
-            className="reveal grid gap-6 border-t border-[color:var(--border)] py-10 md:grid-cols-[280px_1fr] md:gap-12 md:py-14 last:border-b"
+            className="reveal grid gap-6 border-t border-[color:var(--border)] py-8 md:grid-cols-[280px_1fr] md:gap-12 md:py-10 last:border-b"
             data-delay={(i % 4) + 1}
           >
-            <div className="flex items-start gap-4">
+            <div className="flex items-start gap-1">
               <h3 className="display text-2xl md:text-3xl">{g.label}</h3>
             </div>
             <ul className="flex flex-wrap gap-2 md:gap-3 md:justify-end">

@@ -19,7 +19,7 @@ export function Section({
       className={`relative mx-auto w-full max-w-[1400px] px-6 py-24 md:px-12 md:py-28 ${className}`}
     >
       {(eyebrow || title) && (
-        <header className="mb-16 md:mb-24 flex flex-col gap-6">
+        <header className="mb-8 md:mb-12 flex flex-col gap-6">
           {eyebrow && (
             <p className="eyebrow reveal flex items-center gap-3">
               <span className="inline-block h-px w-8 bg-[color:var(--accent)]" />

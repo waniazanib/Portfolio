@@ -21,11 +21,11 @@ export function Exploring() {
         </>
       }
     >
-      <ul className="grid gap-px bg-[color:var(--border)] sm:grid-cols-2 lg:grid-cols-3 border border-[color:var(--border)]">
+      <ul className="grid sm:grid-cols-2 lg:grid-cols-3 border-t border-l border-[color:var(--border)]">
         {ITEMS.map((it, i) => (
           <li
             key={it.t}
-            className="reveal group flex flex-col gap-4 bg-[color:var(--bg)] p-8 transition-colors duration-500 hover:bg-[color:var(--surface)]"
+            className="reveal group flex flex-col gap-4 bg-[color:var(--bg)] p-2 transition-colors duration-500 hover:bg-[color:var(--surface)] border-b border-r border-[color:var(--border)]"
             data-delay={(i % 4) + 1}
           >
             <div className="flex items-center justify-between">

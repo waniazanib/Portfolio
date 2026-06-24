@@ -18,6 +18,7 @@ export function Github() {
           <span className="text-[color:var(--muted)]">commit log.</span>
         </>
       }
+      
     >
       <div className="flex flex-col gap-6">
         <div className="flex flex-wrap items-center justify-between gap-4">
@@ -42,7 +43,7 @@ export function Github() {
                 href={`https://github.com/waniazanib/${r.name}`}
                 target="_blank"
                 rel="noreferrer noopener"
-                className="reveal group flex h-full flex-col gap-5 p-8 transition-colors duration-500 hover:bg-[color:var(--surface)]"
+                className="reveal group flex h-full flex-col gap-1 p-8 transition-colors duration-500 hover:bg-[color:var(--surface)]"
                 data-delay={(i % 4) + 1}
               >
                 <div className="flex items-center justify-between">

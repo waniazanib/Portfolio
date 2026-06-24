@@ -49,7 +49,7 @@ export function Projects() {
         </>
       }
     >
-      <div className="flex flex-col gap-16 md:gap-24">
+      <div className="flex flex-col gap-4 md:gap-12">
         {PROJECTS.map((p) => (
           <ProjectCard key={p.title} p={p} />
         ))}
@@ -60,11 +60,11 @@ export function Projects() {
 
 function ProjectCard({ p }: { p: Project }) {
   return (
-    <article className="reveal group grid gap-8 border border-[color:var(--border)] bg-[color:var(--surface)] p-6 transition-all duration-500 hover:border-[color:var(--accent)]/40 md:gap-12 md:p-10">
+    <article className="reveal group grid gap-8 border border-[color:var(--border)] bg-[color:var(--surface)] p-2 transition-all duration-500 hover:border-[color:var(--accent)]/40 md:gap-12 md:p-6">
 
 
       {/* Content */}
-      <div className="flex flex-col gap-6 md:py-4">
+      <div className="flex flex-col gap-4 ">
         <div>
           <h3 className="display text-4xl md:text-5xl">{p.title}</h3>
           <p className="mt-3 font-mono text-xs uppercase tracking-[0.18em] text-[color:var(--accent)]">
@@ -72,7 +72,7 @@ function ProjectCard({ p }: { p: Project }) {
           </p>
         </div>
 
-        <div className="flex flex-col gap-5">
+        <div className="flex flex-col gap-3">
           <Field label="Problem" body={p.problem} />
           <Field label="Approach" body={p.solution} />
         </div>
