@@ -1,9 +1,9 @@
 import { Section } from "./Section";
 
 const REPOS = [
-  { name: "VoiceGuard", lang: "Python", desc: "Audio classification pipeline with PyTorch & ONNX export." },
-  { name: "Langchain-Chatbot", lang: "Python", desc: "Agentic RAG chatbot built with LangChain + LangGraph." },
-  { name: "TheLetters", lang: "TypeScript", desc: "Full-stack letter-writing app with CI/CD on Vercel." },
+  { name: "Langchain-Chatbot", lang: "Python", desc: "Agentic RAG chatbot built with LangChain " },
+  { name: "Moodfit", lang: "Python", desc: "Poetry-to-outfit multi-modal semantic search engine." },
+  { name: "Insights", lang: "TypeScript", desc: "Instant product analysis and community sentiment retrieval" },
   { name: "DormMate", lang: "TypeScript", desc: "Supabase-backed REST API for student living utilities." },
 ];
 

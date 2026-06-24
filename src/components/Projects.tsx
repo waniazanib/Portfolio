@@ -19,23 +19,23 @@ const PROJECTS: Project[] = [
     title: "VoiceGuard",
     tagline: "Audio classification pipeline · PyTorch · ONNX",
     problem:
-      "A 25,380-sample audio dataset with a heavy 9:1 class imbalance and slow inference made the pipeline unfit for real-world deployment.",
+      "The rapid rise of highly realistic AI-generated synthetic media has made distinguishing between genuine human voices and deepfakes incredibly difficult, compromising biometric and communication security.",
     solution:
-      "Engineered a Python feature-engineering and training pipeline in PyTorch, rebalanced via JSON metadata analysis, profiled hotspots to lift inference throughput 6.7×, and exported the final model to ONNX for portable deployment.",
-    tech: ["Python", "PyTorch", "ONNX", "NumPy", "Pandas", "Computer Vision"],
+      "Engineered an audio feature-engineering pipeline that captures distinct acoustic anomalies, trained a robust PyTorch classifier optimized to withstand synthetic variance, and exported the final model to ONNX for lightweight, real-time threat detection.",
+    tech: ["Python", "PyTorch", "ONNX", "NumPy", "Pandas", "Audio Processing"],
     github: "https://github.com/waniazanib/VoiceGuard",
   },
   {
     index: "02",
-    year: "2025",
-    title: "Langchain Chatbot",
-    tagline: "Agentic RAG assistant · LangChain ",
+    year: "2026",
+    title: "JobGuard",
+    tagline: "raudulent posting classification • Scikit-learn • XGBoost",
     problem:
-      "Stock LLM chatbots hallucinate, lose context across turns, and are painful to iterate on without structured prompt evaluation.",
+      "The rise of sophisticated online job scams risks user data and financial security, yet detecting them requires parsing a complex mix of deceptive text and manipulated metadata.",
     solution:
-      "Built a multi-turn Q&A agent orchestrated with LangChain & LangGraph, backed by a vector store for RAG retrieval, with 14+ prompt templates benchmarked through W&B to cut prompt iteration cycles ~40%.",
-    tech: ["LangChain", "LangGraph", "LLMs", "RAG", "Hugging Face", "Vector DB"],
-    github: "https://github.com/waniazanib/Langchain-Chatbot",
+      "Built an integrated data pipeline that extracts linguistic features alongside categorical indicators, resolved the heavy class imbalance using ensemble learning, and tuned classification thresholds to minimize false negatives.",
+    tech: ["Python", "Scikit-learn", "XGBoost", "NLTK", "Pandas", "NumPy"],
+    github: "https://github.com/waniazanib/Fake_Job_Detector",
   },
 ];
 
