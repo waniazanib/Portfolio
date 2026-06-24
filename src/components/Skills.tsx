@@ -3,7 +3,7 @@ import { Section } from "./Section";
 const GROUPS: { label: string; items: string[] }[] = [
   {
     label: "AI / Machine Learning",
-    items: ["Python", "PyTorch", "TensorFlow", "Scikit-Learn", "ONNX", "NumPy", "Pandas", "NLP"],
+    items: ["Python", "PyTorch", "ResNet", "TensorFlow", "Scikit-Learn", "ONNX", "NumPy", "Pandas", "NLP"],
   },
   {
     label: "LLMs & Agentic AI",
@@ -31,9 +31,6 @@ export function Skills() {
             data-delay={(i % 4) + 1}
           >
             <div className="flex items-start gap-4">
-              <span className="font-mono text-[11px] tracking-[0.22em] text-[color:var(--muted)] pt-1">
-                0{i + 1}
-              </span>
               <h3 className="display text-2xl md:text-3xl">{g.label}</h3>
             </div>
             <ul className="flex flex-wrap gap-2 md:gap-3 md:justify-end">
