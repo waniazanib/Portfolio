@@ -1,10 +1,10 @@
 import { Section } from "./Section";
 
 const REPOS = [
-  { name: "Langchain-Chatbot", lang: "Python", desc: "Agentic RAG chatbot built with LangChain " },
   { name: "Moodfit", lang: "Python", desc: "Poetry-to-outfit multi-modal semantic search engine." },
   { name: "Insights", lang: "TypeScript", desc: "Instant product analysis and community sentiment retrieval" },
-  { name: "DormMate", lang: "TypeScript", desc: "Supabase-backed REST API for student living utilities." },
+  { name: "Cold_Mails", lang: "Python", desc: "Autonomous multi-agent pipeline that drafts personalized cold outreach emails" },
+  { name: "Mask-CV", lang: "Python ", desc: "Video face-masking tool with identity-aware tracking" },
 ];
 
 export function Github() {
@@ -18,7 +18,7 @@ export function Github() {
           <span className="text-[color:var(--muted)]">commit log.</span>
         </>
       }
-      
+
     >
       <div className="flex flex-col gap-6">
         <div className="flex flex-wrap items-center justify-between gap-4">
